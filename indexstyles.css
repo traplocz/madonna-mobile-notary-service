@@ -1,0 +1,19 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+}
+
+.container {
+    width: 90%;
+}
+
+.main__image1 {
+    width: 10rem;
+}
+
+img {
+    max-width: 100%;
+}
