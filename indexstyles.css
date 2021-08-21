@@ -1,17 +1,41 @@
 *, ::before, ::after {
     box-sizing: border-box;
 }
+/* 
+html {
+    font-size: 16px;
+} */
+/* This is bad practice because This will override a user's chosen default font size.  
+By default, the HTML tag has a font size of 16px, so 1rem will be equal to 16px.
+*/
 
 body {
-    font-size: 16px;
+    margin: 0;
 }
 
-.container {
-    width: 90%;
+.layout-container {
+    margin: 0 auto;
+    width: 90vw;
+}
+
+header {
+    background-color: blanchedalmond;
+}
+
+.header__logo {
+    margin: 5px;
+}
+
+main {
+    padding: 16px 0;
+}
+
+footer {
+
 }
 
 .main__image1 {
-    width: 10rem;
+
 }
 
 img {
