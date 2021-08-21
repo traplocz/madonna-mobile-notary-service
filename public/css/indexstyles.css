@@ -1,0 +1,47 @@
+.layout-container {
+    margin: 0 auto;
+    width: 90vw;
+}
+
+header {
+    background-color: blanchedalmond;
+}
+
+.header__logo {
+    margin: 10px;
+    
+}
+
+main {
+    background-color: skyblue;
+    padding: 64px 0;
+}
+
+footer {
+
+}
+
+.main__image1 {
+
+}
+
+img {
+    max-width: 100%;
+    
+}
+
+/* 0-550px — Mobile
+550-1100px — Tablet
+1100-1500px — Laptop
+1500+px — Desktop */
+
+
+@media (min-width: 34.375rem) {
+    /* Tablets */
+  }
+  @media (min-width: 68.75rem) {
+    /* Laptop */
+  }
+  @media (min-width: 93.75rem) {
+    /* Desktop */
+  }
