@@ -22,3 +22,15 @@ server.listen(port, function(error) {
         console.log('TrapLocz said server is listening on port' + port)
     }
 })
+
+// Middleware
+
+// View Engines
+
+// Connect to Database
+
+// Routes
+
+// AUTHENTICATION
+
+// 404 error

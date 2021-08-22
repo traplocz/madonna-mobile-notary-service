@@ -12,24 +12,28 @@
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; connect-src 'self'; img-src 'self'; style-src 'self';"> -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="format-detection" content="telephone=yes">
-    <link rel="stylesheet" href="indexstyles.css">
+    <link rel="stylesheet" href="public\css\reset.css">
+    <link rel="stylesheet" href="public\css\indexstyles.css">
 </head>
 <body>
 <div class="layout-container">
     <header>
-        <img class="header__logo" src="https://i.ibb.co/KqWKmhT/madonnasnotarylogo.png" srcSet="" alt="logo">
+        <picture>
+            <source type="image/avif" srcSet="https://raw.githubusercontent.com/traplocz/madonna-mobile-notary-service/master/public/images/MMNSlogo.avif 1x"/>
+            <img class="header__logo" src="https://raw.githubusercontent.com/traplocz/madonna-mobile-notary-service/master/public/images/MMNSlogopng.png" alt="Website logo">
+        </picture>
         <nav></nav>
     </header>
 
     <main>
         <h1>Have your documents notarized legally</h1>
-        <q>I'm a reliable service. My customer service is official.
-            I make sure I exceed excellence in my customer service.</q>
+        <q>I'm a reliable service.<br>
+            My customer service is official.<br>
+            I make sure I exceed excellence in my customer service.<br></q>
         <picture>
-            <source type="image=avif" srcSet=" 1x, 2x, 3x"/>
-            <img class="main__image1" src="https://raw.githubusercontent.com/traplocz/madonna-mobile-notary-service/master/public/images/photodefault.jpg" alt="Madonna Lewis">
+            <source type="image/avif" srcSet="https://raw.githubusercontent.com/traplocz/madonna-mobile-notary-service/master/public/images/photodefault300x300.avif 1x, https://raw.githubusercontent.com/traplocz/madonna-mobile-notary-service/master/public/images/photodefault600x600.avif 2x, https://raw.githubusercontent.com/traplocz/madonna-mobile-notary-service/master/public/images/photodefault900x900.avif 3x"/>
+            <img class="main__image1" src="https://raw.githubusercontent.com/traplocz/madonna-mobile-notary-service/master/public/images/photodefault.png" alt="Madonna Lewis">
         </picture>
-        
         <span>Notaries available by internet and in-person</span>
         <img src="https://i.ibb.co/471tkbF/notary-public-metal-stamper-testament-law-office-98046649.jpg" srcSet="" alt="logo">
         <section>
