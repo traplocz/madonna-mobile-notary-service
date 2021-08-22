@@ -12,32 +12,58 @@
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; connect-src 'self'; img-src 'self'; style-src 'self';"> -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="format-detection" content="telephone=yes">
-    <link rel="stylesheet" href="public\css\reset.css">
-    <link rel="stylesheet" href="public\css\indexstyles.css">
+    <link rel="stylesheet" href="css\reset.css">
+    <link rel="stylesheet" href="css\indexstyles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/13703f7470.js" crossorigin="anonymous"></script>
 </head>
+
+
 <body>
-<div class="layout-container">
-    <header>
+    <header class="header1 container">
         <picture>
-            <source type="image/avif" srcSet="https://raw.githubusercontent.com/traplocz/madonna-mobile-notary-service/master/public/images/MMNSlogo.avif 1x"/>
-            <img class="header__logo" src="https://raw.githubusercontent.com/traplocz/madonna-mobile-notary-service/master/public/images/MMNSlogopng.png" alt="Website logo">
+            <source type="image/avif" srcSet="https://raw.githubusercontent.com/traplocz/madonna-mobile-notary-service/master/public/img/MMNSlogo.avif 1x"/>
+            <img src="https://raw.githubusercontent.com/traplocz/madonna-mobile-notary-service/master/public/img/MMNSlogopng.png" alt="logo">
         </picture>
-        <nav></nav>
+        <nav class="header1__nav">
+            <i class="fas fa-bars mini-font"></i>
+        </nav>
     </header>
 
-    <main>
-        <h1>Have your documents notarized legally</h1>
-        <q>I'm a reliable service.<br>
-            My customer service is official.<br>
-            I make sure I exceed excellence in my customer service.<br></q>
-        <picture>
-            <source type="image/avif" srcSet="https://raw.githubusercontent.com/traplocz/madonna-mobile-notary-service/master/public/images/photodefault300x300.avif 1x, https://raw.githubusercontent.com/traplocz/madonna-mobile-notary-service/master/public/images/photodefault600x600.avif 2x, https://raw.githubusercontent.com/traplocz/madonna-mobile-notary-service/master/public/images/photodefault900x900.avif 3x"/>
-            <img class="main__image1" src="https://raw.githubusercontent.com/traplocz/madonna-mobile-notary-service/master/public/images/photodefault.png" alt="Madonna Lewis">
-        </picture>
-        <span>Notaries available by internet and in-person</span>
+    <main class="container">
+        <section class="section-quote">
+            <h1 class="section-quote__head">Mobile Notary in Atlanta, Georgia</h1>
+            <i class="fas fa-car mini-font"></i>
+            <i class="fas fa-scroll mini-font"></i>
+            <q class="section-quote__q">I'm a reliable service.
+                My customer service is official.
+                I make sure I exceed excellence in my customer service.</q>
+            <picture>
+                <source type="image/avif" srcSet="https://raw.githubusercontent.com/traplocz/madonna-mobile-notary-service/master/public/img/photodefault300x300.avif 1x, https://raw.githubusercontent.com/traplocz/madonna-mobile-notary-service/master/public/img/photodefault600x600.avif 2x, https://raw.githubusercontent.com/traplocz/madonna-mobile-notary-service/master/public/img/photodefault900x900.avif 3x"/>
+                <img class="section-quote__picture-image1" class="section1__picture-image1" src="https://raw.githubusercontent.com/traplocz/madonna-mobile-notary-service/master/public/img/photodefault.png" alt="Madonna Lewis">
+            </picture>
+        </section>
+
+
+        <section class="section-services">
+            <h1 class="section-services__head">My Services</h1>
+            <i class="fas fa-scroll mini-font"></i>
+            <ul class="section-services__list">
+                <li><strong>1 page each =<span class="section-services__list--boldcolor"> $5 </span></strong></li>
+                <li>Mobile rates (I drive to you):<span class="section-services__list--boldcolor"> $20 </span>up to 5 miles from my location.</li>
+                <i class="fas fa-car mini-font"></i>
+                <li>Additional<span class="section-services__list--boldcolor"> $5 </span>if your located more than 5 miles my location.</li>
+                <i class="fas fa-piggy-bank mini-font"></i>
+                <li><strong>Drive to me?<span class="section-services__list--boldcolor"> $0 </span>No mobile rate charge!</strong></li>
+            </ul>
+        </section>
+        
         <img src="https://i.ibb.co/471tkbF/notary-public-metal-stamper-testament-law-office-98046649.jpg" srcSet="" alt="logo">
-        <section>
-            <h2>Convienent, fast, notarizations!</h2>
+
+        <section class="section">
+            <h2 class="section__">Convienent, fast, notarizations!</h2>
             <span>Contact me:</span>
             <ul>
                 <li>Email: MadonnaLewis197@gmail.com</li>
@@ -49,12 +75,7 @@
     </main>
 
 
-
-
-
-
-
-
-</div>
 </body>
+
+
 </html>
