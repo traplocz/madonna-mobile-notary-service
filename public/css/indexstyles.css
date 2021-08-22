@@ -149,8 +149,23 @@ a.section-contact__address {
 footer {
     background-color: hsl(197deg, 71%, 73%);
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
     align-items: center;
+    row-gap: 10px;
+    column-gap: 10px;
+    font-size: 0.8rem;
+}
+
+.footer__trapoasis {
+    margin: 5px;
+    text-align: center;
+}
+
+.footer__trapoasis-image1 {
+    width: 3rem;
+    margin: 5px;
 }
 
 strong {
