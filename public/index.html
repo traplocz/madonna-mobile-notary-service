@@ -12,6 +12,7 @@
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; connect-src 'self'; img-src 'self'; style-src 'self';"> -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="format-detection" content="telephone=yes">
+    <meta name="format-detection" content="telephone=yes">
     <link rel="stylesheet" href="css\reset.css">
     <link rel="stylesheet" href="css\indexstyles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,14 +33,18 @@
         </nav>
     </header>
 
+
+
     <main class="container">
         <section class="section-quote">
-            <h1 class="section-quote__head">Mobile Notary in Atlanta, Georgia</h1>
-            <i class="fas fa-car mini-font"></i>
-            <i class="fas fa-scroll mini-font"></i>
-            <q class="section-quote__q">I'm a reliable service.
+            <h1 class="section-quote__heading">Mobile Notary in Atlanta, Georgia</h1>
+            <span>
+                <i class="fas fa-car mini-font"></i>
+                <i class="fas fa-scroll mini-font"></i>
+            </span>
+            <q class="section-quote__quotetext"> I'm a reliable service.
                 My customer service is official.
-                I make sure I exceed excellence in my customer service.</q>
+                I make sure I exceed excellence in my customer service. </q>
             <picture>
                 <source media="(min-width:68.75rem)" type="image/avif" srcSet="https://raw.githubusercontent.com/traplocz/madonna-mobile-notary-service/master/public/img/photodefault600x600.avif">
                 <source media="(min-width:34.375rem)" type="image/avif" srcSet="https://raw.githubusercontent.com/traplocz/madonna-mobile-notary-service/master/public/img/photodefault300x300.avif">
@@ -47,8 +52,10 @@
             </picture>
         </section>
 
+
+
         <section class="section-services">
-            <h2 class="section-services__head">My Service</h2>
+            <h2 class="section-services__heading">My Service</h2>
             <i class="fas fa-scroll mini-font"></i>
             <ul class="section-services__list">
                 <li><strong>1 page each =<span class="section-services__list--boldcolor"> $5 </span></strong></li>
@@ -58,30 +65,43 @@
                 <i class="fas fa-piggy-bank mini-font"></i>
                 <li><strong>You drive to me?<span class="section-services__list--boldcolor"> $0 </span>No mobile rate charge!</strong> (You drive to my location.)</li>
             </ul>
-        </section>
-
-        <section class="section-location">
             <picture>
                 <source media="(min-width: 93.75rem)" type="image/avif" srcSet="https://raw.githubusercontent.com/traplocz/madonna-mobile-notary-service/master/public/img/notary-public-metal-stamper-testament-law-office-98046649-900x401.avif">
                 <source media="(min-width:68.75rem)" type="image/avif" srcSet="https://raw.githubusercontent.com/traplocz/madonna-mobile-notary-service/master/public/img/notary-public-metal-stamper-testament-law-office-98046649-600x401.avif">
                 <source media="(min-width:34.375rem)" type="image/avif" srcSet="https://raw.githubusercontent.com/traplocz/madonna-mobile-notary-service/master/public/img/notary-public-metal-stamper-testament-law-office-98046649-300x200.avif">
-                <img media="(max-width: 300px;" class="section-location__picture-image1" src="https://raw.githubusercontent.com/traplocz/madonna-mobile-notary-service/master/public/img/notary-public-metal-stamper-testament-law-office-98046649.jpg" alt="Notary Public">
+                <img media="(max-width: 300px;" class="section-services__picture-image1" src="https://raw.githubusercontent.com/traplocz/madonna-mobile-notary-service/master/public/img/notary-public-metal-stamper-testament-law-office-98046649.jpg" alt="Notary Public">
             </picture>
         </section>
-        
-        
 
-        <section class="section">
-            <h2 class="section__">Convienent, fast, notarizations!</h2>
-            <span>Contact me:</span>
-            <ul>
-                <li>Email: MadonnaLewis197@gmail.com</li>
-                <li>Cell: 404-200-2021</li>
-                <li>Location: Cobb County, Georgia</li>
+
+
+        <section class="section-location-hours">
+            <h3 class="section-location-hours__heading">Location and hours</h3>
+            <ul class="section-location-hours__list">
+                <i class="fas fa-map-marked-alt mini-font"></i>
+                <li>24/7 = 24hours, 7 days a week</li>
+                <li>Additional fee for hours between 7pm-9am EST</li>
+                <li class="section-loca5ion-hours__list-li">2222 East-West Connector, Austell, GA 30106</li>
             </ul>
-            
+            <div class="map-responsive"><iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ62z2w0099YgRF7EkMj7hAAY&key=AIzaSyACvDjLX_OldAPufZPXkQaQ7-eApnH_OsY"></iframe></div>
+        </section>
+        <section class="section-contact">
+            <h4 class="section-contact__heading">Contact me!</h4>
+            <a href="mailto:MadonnaLewis197@gmail.com"><i class="far fa-envelope mini-font2"></i></a>
+            <a href="tel:123-456-7890"><i class="fas fa-mobile-alt mini-font2 mini-font2--circle"></i></a>
+            <address class="section-contact__address">
+            <strong>E-mail:</strong> <a href="mailto:MadonnaLewis197@gmail.com">MadonnaLewis197@gmail.com</a>
+            <strong>Cellphone:</strong> <a href="tel:123-456-7890">404-200-2021</a>
+            </address>
         </section>
     </main>
+
+
+
+    <footer class="container">
+        <p>&copy; 2020-2021 Madonna Mobile Notary Service - All Rights Reserved</p>
+        <p>Website designed</p>
+    </footer>
 
 
 </body>
