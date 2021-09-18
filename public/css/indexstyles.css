@@ -56,6 +56,10 @@ body {
     padding: 20px 0;
 }
 
+.section-services__list {
+    list-style: none;
+}
+
 .section-services__list--boldcolor {
     color: green;
     font-weight: 800;
@@ -82,7 +86,7 @@ body {
 }
 
 .section-location-hours__list {
-    margin: 20px 0;
+    margin-bottom: 20px;
     list-style: none;
 }
 
@@ -133,6 +137,7 @@ iframe {
 .mini-font {
     text-align: center;
     font-size: 1.5rem;
+    padding-top: 20px;
 }
 
 .mini-font2 {
