@@ -184,11 +184,7 @@ img {
 1100-1500px — Laptop
 1500+px — Desktop */
 
-
-@media (min-width: 34.375rem) {
-    /* Tablets */
-  }
-  @media (min-width: 68.75rem) {
+@media (min-width: 68.75rem) {
     /* Laptop */
 
     .section-loca5ion-hours__list-li {
@@ -208,6 +204,7 @@ img {
         width: 800px;
     }
   }
+
   @media (min-width: 93.75rem) {
     /* Desktop */
 
