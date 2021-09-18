@@ -27,11 +27,13 @@ body {
     font-weight: 700;
     font-size: 1.8rem;
     border-bottom: 1px solid hsl(50deg, 100%, 50%);
+    padding: 20px 0;
 }
 
 .section-quote__quotetext {
     margin-bottom: 10px;
     text-align: center;
+    padding: 20px 0;
 }
 
 .section-quote__picture-image1 {
@@ -51,6 +53,7 @@ body {
     font-weight: 700;
     font-size: 1.5rem;
     border-bottom: 1px solid hsl(50deg, 100%, 50%);
+    padding: 20px 0;
 }
 
 .section-services__list--boldcolor {
@@ -75,22 +78,25 @@ body {
     font-weight: 700;
     font-size: 1.5rem;
     border-bottom: 1px solid hsl(50deg, 100%, 50%);
+    padding: 20px 0;
 }
 
 .section-location-hours__list {
-    margin-bottom: 20px;
+    margin: 20px 0;
+    list-style: none;
 }
 
 .section-loca5ion-hours__list-li {
     background-color: hsl(197deg, 71%, 73%);
     border: 1px solid black;
     font-weight: 700;
-    padding: 10px;
+    padding: 10px 0;
+    margin: 20px 0;
     box-shadow:
      0 5.9px 8.4px rgba(0, 0, 0, 0.057), 0 19.9px 28.4px rgba(0, 0, 0, 0.083), 0 89px 127px rgba(0, 0, 0, 0.14);
 }
 
-.map-responsive{
+.map-responsive {
     overflow: hidden;
     padding-bottom: 56.25%;
     position: relative;
@@ -107,6 +113,10 @@ body {
     position: absolute;
 }
 
+iframe {
+    border: 1px solid black;
+}
+
 .section-contact {
     text-align: center;
     font-size: 1.2rem;
@@ -117,14 +127,7 @@ body {
     font-weight: 700;
     font-size: 1.5rem;
     border-bottom: 1px solid hsl(50deg, 100%, 50%);
-}
-.section-contact__address  {
-    font-weight: 500;
-}
-a.section-contact__address {
-    display: flex;
-    justify-content: center;
-    align-content: space-between;
+    padding: 20px 0;
 }
 
 .mini-font {
@@ -187,7 +190,41 @@ img {
   }
   @media (min-width: 68.75rem) {
     /* Laptop */
+
+    .section-loca5ion-hours__list-li {
+        margin: 0 auto;
+        width: 500px;
+    }    
+
+    .map-responsive {
+        overflow: hidden;
+        padding-bottom: 500px;
+        box-shadow:
+         0 5.9px 8.4px rgba(0, 0, 0, 0.057), 0 19.9px 28.4px rgba(0, 0, 0, 0.083), 0 89px 127px rgba(0, 0, 0, 0.14);
+    }
+
+    .map-responsive {
+        margin: 0 auto;
+        width: 800px;
+    }
   }
   @media (min-width: 93.75rem) {
     /* Desktop */
+
+    .section-loca5ion-hours__list-li {
+        margin: 0 auto;
+        width: 500px;
+    }    
+
+    .map-responsive {
+        overflow: hidden;
+        padding-bottom: 500px;
+        box-shadow:
+         0 5.9px 8.4px rgba(0, 0, 0, 0.057), 0 19.9px 28.4px rgba(0, 0, 0, 0.083), 0 89px 127px rgba(0, 0, 0, 0.14);
+    }
+
+    .map-responsive {
+        margin: 0 auto;
+        width: 800px;
+    }
   }
